@@ -1,0 +1,6 @@
+# Define Sequential model (Approach #1)
+model = tf.keras.Sequential()
+model.add(Dense(4,activation='relu',
+      input_shape=(3,), name=’hidden1’))
+model.add(Dense(4,activation='relu',name='hidden2'))
+model.add(Dense(1, name='output_layer'))
