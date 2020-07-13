@@ -1,5 +1,5 @@
 ---
-name: Bug Issue
+name: Test Bug Issue
 about: Use this template for reporting a bug
 labels: 'type:bug'
 
